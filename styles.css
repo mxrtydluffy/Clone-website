@@ -1,9 +1,9 @@
-#preheadline{
+#preheadline {
     color: #66aa33;
     font-weight: bold;
 }
 
-.Masthead_preheadline{
+.Masthead_preheadline {
     color: white;
 }
 
@@ -15,7 +15,7 @@
     color: white;
 }
 
-.container {
+#info {
     position: absolute;
     top: 50%;
     left: 50%;
