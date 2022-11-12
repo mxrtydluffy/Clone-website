@@ -1,21 +1,24 @@
-.preheadline{
+#preheadline{
     color: #66aa33;
     font-weight: bold;
 }
 
-.log_in, h4, h5{
+.Masthead_preheadline{
     color: white;
 }
 
-/* Container helps the image and the text */
-.container{
-    position: relative;
-    text-align: center;
+.log_in {
+    color: white;
 }
 
-.centered{
+.Masthead_subheadline {
+    color: white;
+}
+
+.container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }

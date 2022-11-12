@@ -18,39 +18,47 @@
     <nav class="navbar bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="images/Hulu_Logo.svg" alt="hulu" width="60" height="60">
+          <img src="images/Hulu_Logo.svg" alt="hulu" width="60" height="60" id="hulu_logo">
         </a>
         <h5 class="log_in">LOG IN</h5>
       </div>
     </nav>
 
-    <!-- Container to store  -->
-    <div class="container">
-      <img src="images/original.jpeg" alt="background" style="width: 100%;">
-      <div class="centered">
-        <div class="preheadline">
-          <div><small>BUNDLE WITH ANY HULU PLAN & SAVE</small></div>
-        </div>
-        <br>
-        <!-- 3 images and text -->
-        <div>
-          <img style="opacity:1; min-height:auto; flex-shrink: 0; width: 30%" src="images/main_images.png" alt="The Disney Bundle">
-          <div class="masthead_subheadline" style="color: white;" > Get endless entertainment, live sports, and the shows and movies you love.</div>
-        </div>
-        <br>
-        <!-- Sign up Button -->
-        <div>
-          <button type="button" class="btn btn-success">Get The Disney Bundle</button>
-        </div>
-        <br>
-        <!-- Lower Masthead -->
-        <div>
-          <h4> What's Included? See Bundle terms.</h4>
-        </div>
-        <br>
-        <!-- Bottom Masthead -->
-        <div>
-          <h5> Sign up for Hulu only</h5>
+    <!-- MAIN CONTAINER -->
+    <div class=".container-fluid">
+      <div id="masthead">
+        <div class="ImageBackground">
+          <img src="images/original.jpeg" style="height: 100%; width: 100%; object-fit: contain;" alt="Main Image">
+          <div class="container">
+            <div class="Masthead_preheadline">
+              <div id="preheadline">BUNDLE WITH ANY HULU PLAN & SAVE</div>
+              <br>
+              <br>
+              <!-- 3 Main Images-->
+              <h1 class="Masthead_headline">
+                <img style="opacity:1; min-height:auto; flex-shrink: 0; width: 90%" src="images/main_images.png">
+                <div class="Masthead_subheadline">Get endless, entertainment, live sports, and the shows and movies you love.</div>
+              </h1>
+              <!-- Sign up Button-->
+              <div class="Masthead_input">
+                <button type="button" class="btn btn-success">Get The Disney Bundle</button>
+              </div>
+              <br>
+              <!-- Lower Masthead-->
+              <div class="Masthead_legal">
+                <button class="button-link" data-toggle="modal" data-target="#bundle_details">
+                  <strong>What's included</strong>
+                </button>
+                See
+                <a href="https://www.hulu.com/terms/disney-bundle" target="_blank">Bundle details</a>
+                .
+                <!-- Bottom Masthead -->
+                <div class="Masthead_hulu-only">
+                  <a href="https://www.hulu.com/signup/go/one-hulu?from=welcome&utm_source=welcome-masthead-text-link" title="Sign up for Hulu only">Sign up for Hulu only</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
